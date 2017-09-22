@@ -8,6 +8,16 @@ public class Test {
 	public static void main(String[] args) {
 		test1();
 		test2();
+		test3();
+	}
+	/**
+	 * ²âÊÔË«ÖØ¼ì²âËøÄ£Ê½
+	 */
+	private static void test3() {
+		DoubleTestLockSingleTon dtlst1=DoubleTestLockSingleTon.getInstance();
+		DoubleTestLockSingleTon dtlst2=DoubleTestLockSingleTon.getInstance();
+		System.out.println(dtlst1);
+		System.out.println(dtlst2);
 	}
 	/**
 	 * ²âÊÔÀÁººÊ½
