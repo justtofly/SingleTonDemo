@@ -7,6 +7,16 @@ public class Test {
 	 */
 	public static void main(String[] args) {
 		test1();
+		test2();
+	}
+	/**
+	 * ≤‚ ‘¿¡∫∫ Ω
+	 */
+	private static void test2() {
+		LazySingleTon lst1=LazySingleTon.getInstance();
+		LazySingleTon lst2=LazySingleTon.getInstance();
+		System.out.println(lst1);
+		System.out.println(lst2);
 	}
 
 	/**
