@@ -9,6 +9,16 @@ public class Test {
 		test1();
 		test2();
 		test3();
+		test4();
+	}
+	/**
+	 * 测试静态内部类方式
+	 */
+	private static void test4() {
+		StaticInnerSingleTon sist1=StaticInnerSingleTon.getInstance();
+		StaticInnerSingleTon sist2=StaticInnerSingleTon.getInstance();
+		System.out.println(sist1);
+		System.out.println(sist2);
 	}
 	/**
 	 * 测试双重检测锁模式
