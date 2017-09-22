@@ -10,6 +10,16 @@ public class Test {
 		test2();
 		test3();
 		test4();
+		test5();
+	}
+	/**
+	 * 测试枚举实现方式
+	 */
+	private static void test5() {
+		EnumSingleTon est1=EnumSingleTon.INSTANCE;
+		EnumSingleTon est2=EnumSingleTon.INSTANCE;
+		System.out.println(est1);
+		System.out.println(est2);
 	}
 	/**
 	 * 测试静态内部类方式
